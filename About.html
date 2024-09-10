@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            background-color: yellow;
+            height: 70px;
+        }
+        ul{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+        }
+        a{
+            font-size: 1.7rem;
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        table thead tr {
+            background-color: #6C63FF;
+            color: #fff;
+        }
+        table th, table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        table th {
+            font-size: 1.1em;
+            text-transform: uppercase;
+        }
+        table tr:hover {
+            background-color: #f1f1f1;
+        }
+        table tbody tr:last-child td {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li> <a href="C:\Users\dell\Desktop\HTML TUTORIAL\CSS Tutorial\Assignment 4\Home.html">Home</a> </li>
+            <li> <a href="C:\Users\dell\Desktop\HTML TUTORIAL\CSS Tutorial\Assignment 4\About.html">About</a> </li>
+            <li> <a href="C:\Users\dell\Desktop\HTML TUTORIAL\CSS Tutorial\Assignment 4\Contact.html">Contact</a> </li>
+        </ul>
+    </div>
+
+    <h2>Student Details</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>S. No.</th>
+            <th>Name</th>
+            <th>Course Name</th>
+            <th>Contact</th>
+            <th>Attendance</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>Web Development</td>
+            <td>+1234567890</td>
+            <td>95%</td>
+            <td>123 Main St, City</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>Data Science</td>
+            <td>+0987654321</td>
+            <td>90%</td>
+            <td>456 Elm St, City</td>
+        </tr>
+        <!-- Add more rows as needed -->
+    </tbody>
+</table>
+</body>
+</html>

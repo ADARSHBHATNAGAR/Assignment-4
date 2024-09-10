@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            background-color: yellow;
+            height: 70px;
+        }
+        ul{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+        }
+        a{
+            font-size: 1.7rem;
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #dc1010;
+            margin: 0;
+        }
+        .form-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        form{
+            display: flex;
+            margin: 10px;
+            flex-direction: column;
+            background-color: yellow;
+        }
+        input{
+            width: 500px;
+            text-align: center;
+            font-size: 1.3rem;
+            margin: 5px;
+            height: 50px;
+            border-radius: 5px;
+        }
+        textarea{
+            width: 500px;
+            font-size: 1.3rem;
+            border-radius: 5px;
+            margin: 5px;
+            text-align: center;
+        }
+        button{
+            font-size: 1.3rem;
+            margin: 5px;
+            width: 90px;
+            height: 30px;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+        }
+        button:hover{
+            background-color: red;
+            color: blue;
+            cursor: pointer;
+        }
+        .buttons{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li> <a href="C:\Users\dell\Desktop\HTML TUTORIAL\CSS Tutorial\Assignment 4\Home.html">Home</a> </li>
+            <li> <a href="C:\Users\dell\Desktop\HTML TUTORIAL\CSS Tutorial\Assignment 4\About.html">About</a> </li>
+            <li> <a href="C:\Users\dell\Desktop\HTML TUTORIAL\CSS Tutorial\Assignment 4\Contact.html">Contact</a> </li>
+        </ul>
+    </div>
+    <div class="form-container">
+        <h1 style="font-size: 1.7rem;color: blue;">Contact Us</h1>
+        <form action="POST">
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter your e-mail">
+            <input type="number" placeholder="Enter your contact">
+            <input type="text" placeholder="Enter your address">
+            <textarea name="" id="" placeholder="Enter you message here..."></textarea>
+            <div class="buttons">
+                <button>Submit</button>
+            <button>Reset</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
